@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <title>Mario Page</title>
+</head>
+
+<body>
+    <div class="background-video">
+        <video class="video" autoplay loop muted>
+            <source src="assets/video/video-mario.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="header">
+        <a href="#">
+            <img class=logo src="assets/imagens/logo-chapeu-mario.png" alt="logo Mario hat">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Details</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="info">
+            <img class="image-title" src="assets/imagens/titulo.png" alt="image title movie">
+            <p class="description">Mario is a plumber along with his brother Luigi. One day, they will end up in the mushroom kingdom, ruled by Princess Peach, but threatened by the king of Koopas, who does everything he can to reign everywhere.</p>
+            <button class="trailer-btn" >See trailer</button>
+        </div>
+        <img class="mario" src="assets/imagens/super-mario-chars.png" alt="">
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close-modal">x</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="Trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
